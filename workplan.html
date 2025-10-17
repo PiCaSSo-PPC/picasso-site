@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>PiCaSSo - Work Plan</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top bg-body py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html" style="margin: 0; margin-left: -15px; margin-top: -10px;">
+                <img src="assets/logo/logo_cropped.png" alt="PiCaSSo" height="50">
+            </a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav d-flex align-items-center ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="workplan.html">Work Plan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="navbar-nav d-flex align-items-center ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="https://www.inesc-id.pt" target="_blank">
+                        <img src="assets/img/INESC-ID-logo_01.png" width="76" height="38">
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section-white">
+        <div class="documents-header">
+            <h2>Work Plan</h2>
+            <p>Detailed breakdown of project tasks, objectives, methods, and expected results</p>
+        </div>
+        
+        <div class="container container-content">
+            
+            <div class="work-task">
+                <div class="task-header">
+                    <span class="task-number">1</span>
+                    <h3 class="task-title"> Requirements Elicitation </h3>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🎯 Objective</h5>
+                    <p>The primary objective of this task is to gather both the functional and non-functional requirements for our PPC integrated digital platform.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🔬 Task Description</h5>
+                    <p>This task will focus on collecting the following: 1. data requirements: identify which data fields need to be persistently stored); 2) data security requirements to ensure protection of sensitive data and availability of the whole set of data stored; and 3) functional requirements: define the tasks the platform needs to perform to satisfy user information needs.</p>
+                    <p>The INESC-ID team will work very closely with the HSM team throughout the entire execution of this task.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">✅ Expected Results</h5>
+                    <ul>
+                        <li>Functional Requirements: A comprehensive list of functional requirements in the form of use cases.</li>
+                        <li>Data Requirements: A detailed list of data requirements in the form of conceptual and relational models, along with descriptions of corresponding data integrity constraints</li>
+                        <li>Technical Resources: A list of the necessary technical resources for both the development and pilot deployment of the platform, including software packages and hardware.</li>
+                        <li>Consent Approval Document: A consent approval document to be shared with patients or their legal representatives.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-task">
+                <div class="task-header">
+                    <span class="task-number">2</span>
+                    <h3 class="task-title">Clinical data registry design and implementation</h3>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🎯 Objective</h5>
+                    <p>This task is twofold: 1) to design and implement the Clinical Data Repository (CDR), a secure data repository for storing clinical data related to Pediatric Palliative Care (PPC); and 2) to design a detailed architecture for the integrated digital platform for PPC.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🔬 Task Description</h5>
+                    <p>This task focuses on: 1) database modeling and implementation applied to the CDR; 2) data security techniques to ensure the protection of PPC sensitive data; and 3) component architecture of a software system that meets the objectives of our integrated digital platform for PPC.</p>
+                    <p>The CDR will be designed and implemented according to the data requirements specified by the HSM Pediatrics Department.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">✅ Expected Results</h5>
+                    <ul>
+                        <li>The ER data model for the CDR with integrity constraints</li>
+                        <li>The relational data model for the CDR with integrity constraints</li>
+                        <li>A fully implemented CDR with data security mechanisms</li>
+                        <li>The architecture design for the digital integrated platform</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-task">
+                <div class="task-header">
+                    <span class="task-number">3</span>
+                    <h3 class="task-title">Implementation of the Integrated Digital Platform</h3>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🎯 Objective</h5>
+                    <p>This task has three primary objectives: 1) to implement the server-side logic of our integrated digital platform to meet the functional requirements gathered in Task 1; 2) to design and develop the Graphical User Interface (GUI) of our integrated digital platform accessible through a Web browser; and 3) to migrate PPC data previously collected in an Excel file by the HSM Pediatrics Department team specialized in CPP into the CDR constructed in Task 3.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🔬 Task Description</h5>
+                    <p>The task involves three main steps: (i) server implementation: Develop the server-side logic of our integrated digital platform, encompassing application logic for data input, search, update, and analysis within the PPC CDR; (ii) GUI design and development: design and implement a user-friendly and functional GUI for the platform; (iii) sata migration: create and execute a data migration pipeline to transfer existing data from an Excel file into the PPC CDR.</p>
+                    <p>The GUI of the integrated digital platform will be designed to meet the usability needs specified by PPC experts from HSM. The HSM Pediatrics Department will provide the Excel file containing PPC data about its patients, which will be used for data migration into the CDR. </p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">✅ Expected Results</h5>
+                    <ul>
+                        <li>A working version prototype of our integrated digital platform.</li>
+                        <li>The CDR populated with PPC data from the HSM Pediatrics Department.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-task">
+                <div class="task-header">
+                    <span class="task-number">4</span>
+                    <h3 class="task-title">Pilot installation and Evaluation</h3>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🎯 Objective</h5>
+                    <p>This task aims to achieve three primary objectives: 1) install a pilot version of the integrated digital platform at HSM; 2) conduct a proof-ofconcept test with real users; and 3) evaluate the pilot version and incorporate improvements based on the feedback obtained from users.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🔬 Task Description</h5>
+                    <p>This task will focus on the installation and evaluation of the integrated digital platform for PPC at the HSM Pediatrics Department.</p>
+                    <p>The INESC-ID team will work closely with the HSM team during the execution of user tests, ensuring thorough evaluation and effective incorporation of improvements based on user feedback.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">✅ Expected Results</h5>
+                    <ul>
+                        <li>A fully operational pilot version of the integrated digital platform for PPC</li>
+                        <li>An evaluation report of the platform based on user testing.</li>
+                        <li>An improved version of the integrated digital platform incorporating user feedback and addressing identified issues.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-task">
+                <div class="task-header">
+                    <span class="task-number">5</span>
+                    <h3 class="task-title">Data Analysis and Prediction</h3>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🎯 Objective</h5>
+                    <p>The goal of this task is three-fold: 1) to develop descriptive learning approaches to uncover spatiotemporal patterns from PPC historical data; 2) use classifiers trained on this historical data to predict patient progression; 3) provide useful and intuitive visualizations to inform decisions by the PPC community.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🔬 Task Description</h5>
+                    <p>This task focuses on: 1) descriptive learning approaches that will discover spatiotemporal patterns from 2) advanced predictive learning approaches, where these patterns will be used as features to train the models or used to select target data to train specialized learning models;</p>
+                    <p>All these activities are performed by the INESC-ID team, which will yield real features to be made available in the pilot installation. Examples are real-time descriptive analyses of the PPC network data, or the application of forecasting models for PPC intervention of specific patients.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">✅ Expected Results</h5>
+                    <ul>
+                        <li>Descriptive data analysis of the portuguese PPC network data with geo-temporal patterns</li>
+                        <li>Forecasting models for the prediction of patient progression</li>
+                        <li>Real time data visualization & prediction in the pilot installation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-task">
+                <div class="task-header">
+                    <span class="task-number">6</span>
+                    <h3 class="task-title">Dissemination of results </h3>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">🎯 Objective</h5>
+                    <p>This task aims to disseminate the achievements of the project to various stakeholders, both at the clinical level, with the CPP teams from the wider PPC network that may use the developed platform, as well as at the management level, with the HSM Administration or other governmental entities that may consider the results as crucial tools for strategic national decisions. Additionally, we plan to present PiCaSSo's results at scientific venues related to Health and Computer Science.</p>
+                </div>
+                
+                <div class="task-section">
+                    <h5 class="task-section-title">✅ Expected Results</h5>
+                    <ul>
+                        <li>Project Website: a dedicated site featuring detailed project descriptions, prototype versions, evaluation results, presentation slides, and scientific papers.</li>
+                        <li>Publications and Presentations: scientific papers and presentations at relevant medical and computer science conferences.</li>
+                        <li>Media Coverage: regular press releases, interviews, and media engagement to ensure widespread awareness of the project's progress and results</li>
+                        <li>Policy Engagement: effective communication with policymakers to integrate project findings into national strategic decisions.</li>
+                        <li>Community Outreach: sharing the project's progress and results with other hospitals in Portugal with CPP teams (platform network), the scientific community, the general public, and policymakers.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="text-center bg-body" data-bs-theme="dark">
+        <div class="container py-4 py-lg-5">
+            <ul class="list-inline">
+                <li class="list-inline-item me-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope text-light" style="margin-right: 10px;">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
+                    </svg>
+                    <a class="link-body-emphasis" href="mailto:picasso@inesc-id.pt">picasso@inesc-id.pt</a>
+                </li>
+                <li class="list-inline-item me-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github text-light" style="margin-right: 10px;">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+                    </svg>
+                    <a class="link-body-emphasis" href="https://github.com/PiCaSSo-PPC">GitHub</a>
+                </li>
+            </ul>
+            <p class="text-body mb-0">Copyright © 2025 INESC-ID</p>
+        </div>
+    </footer>
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

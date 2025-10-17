@@ -4,175 +4,184 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>PiCaSSo</title>
+    <title>PiCaSSo - Pediatric Palliative Care Support System</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/aos.min.css">
-    <link rel="stylesheet" href="assets/css/plan.css">
-    <link rel="stylesheet" href="assets/css/Team-icons.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
 </head>
 
-<body style="background: #ffffff;">
+<body>
     <nav class="navbar navbar-expand-md sticky-top bg-body py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html" style="margin: 0;"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: var(--bs-info);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-heart-pulse">
-                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01zM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z"></path>
-                        <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162z"></path>
-                    </svg></span><span>PiCaSSo</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-2" style="background: #ffffff;">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html" style="margin: 0; margin-left: -15px; margin-top: -10px;">
+                <img src="assets/logo/logo_cropped.png" alt="PiCaSSo" height="50">
+            </a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav d-flex align-items-center ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="plan.html">Plan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#partners">Partners</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="workplan.html">Work Plan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
                 <ul class="navbar-nav d-flex align-items-center ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="https://www.inesc-id.pt" target="_blank"><img src="assets/img/INESC-ID-logo_01.png" width="76" height="38"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.inesc-id.pt" target="_blank">
+                        <img src="assets/img/INESC-ID-logo_01.png" width="76" height="38">
+                    </a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="py-4 py-xl-5" style="background: url(&quot;assets/img/gfb7f1650189fd5a4cf34dc01406f6e1c223881a6cec381d849f09a55da4aba8925ae65f8b4e1216ba6d0047e71153b5e13b8a3c9fe88a34a8179548752896659_640.jpg&quot;) no-repeat;height: 701px;padding: 50px;background-size: cover;">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center mx-auto">
-                    <div>
-                        <h2 class="text-uppercase fw-bold mb-3" style="color: var(--bs-black);">Picasso</h2>
-                        <p class="mb-4" style="color: var(--bs-dark);font-size: 18px;"><strong>Pediatric Palliative Care Support System</strong></p>
-                    </div>
-                </div>
-            </div>
+
+    <section class="section-white">
+        <div class="documents-header">
+            <h2>About PiCaSSo</h2>
+            <p>Pediatric Palliative Care Support System - Developing innovative digital solutions to improve pediatric palliative care delivery across Portugal</p>
         </div>
     </section>
-    <section id="about" style="padding: 50px;background: #ffffff;">
+
+    <section class="section-content">
         <div class="container">
-            <h2 class="text-center">About</h2><div class="solution-showcase">
-                    <div class="solution-header">
-                        <div class="solution-icon">💻</div>
-                        <div class="solution-title">PiCaSSO Digital Platform</div>
-                    </div>
-                    <div class="solution-description">
-                        The PiCaSSO team is developing a digital platform to improve Pediatric Palliative Care in Portugal. It will offer a <strong>clinical data registry</strong>, <strong>advanced analytics</strong>, and a <strong>user-friendly interface</strong> for healthcare professionals to track, analyze, and coordinate PPC for children with CCD. The platform will support care planning and network creation through <strong>secure</strong>, <strong>centralized data</strong>.
-                    </div>
-                    <div class="solution-features">
-                        <div class="feature-pill">📊 Clinical Data Registry</div>
-                        <div class="feature-pill">🔍 Advanced Analytics</div>
-                        <div class="feature-pill">👩‍⚕️ User-Friendly Interface</div>
-                        <div class="feature-pill">🔐 Secure Data Management</div>
-                    </div>
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h3 class="section-title-main">PiCaSSo Digital Platform</h3>
+                    <p class="section-description">
+                        The PiCaSSo team is developing a digital platform to improve Pediatric Palliative Care in Portugal. It will offer a <strong>clinical data registry</strong>, <strong>advanced analytics</strong>, and a <strong>user-friendly interface</strong> for healthcare professionals to track, analyze, and coordinate PPC for children with CCD. The platform will support care planning and network creation through <strong>secure</strong>, <strong>centralized data</strong>.
+                    </p>
                 </div>
-        </div>
-    </section>
-    <section data-aos="fade-up" id="team" style="background: var(--bs-secondary-bg-subtle);padding: 50px;">
-        <div class="container py-4 py-xl-5">
-            <div class="row mb-4 mb-lg-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2>Our Team</h2>
-                </div>
-            </div>
-            <div class="row gy-4 row-cols-2 row-cols-md-4">
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/Foto-HG.png">
-                            <h5 class="fw-bold text-primary mb-0 card-title"><strong>Helena Galhardas</strong></h5>
-                            <p class="text-muted mb-2 card-text">Principal Investigator</p>
-                            <p class="text-muted mb-2 card-text">Associate Professor<br>IST, U. Lisboa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/eu.jpg">
-                            <h5 class="fw-bold text-primary mb-0 card-title"><strong>Pedro</strong>&nbsp;Monteiro</h5>
-                            <p class="text-muted mb-2 card-text">Researcher</p>
-                            <p class="text-muted mb-2 card-text">Associate Professor<br>IST, U. Lisboa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/premiotribolet-1140x641.png">
-                            <h5 class="fw-bold text-primary mb-0 card-title"><strong>Daniel Gonçalves</strong></h5>
-                            <p class="text-muted mb-2 card-text">Researcher</p>
-                            <p class="text-muted mb-2 card-text">Full Professor<br>IST, U. Lisboa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/IMG_5774-2xl.png">
-                            <h5 class="fw-bold text-primary mb-0 card-title"><strong>David R. Matos</strong></h5>
-                            <p class="text-muted mb-2 card-text">Researcher</p>
-                            <p class="text-muted mb-2 card-text">Assistant Professor<br>IST, U. Lisboa</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row gy-4 row-cols-2 row-cols-md-4">
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/IMG-4500.jpeg">
-                            <h5 class="fw-bold text-primary mb-0 card-title"><strong>Maria João Palaré</strong></h5>
-                            <p class="text-muted mb-2 card-text">Researcher</p>
-                            <p class="text-muted mb-2 card-text">MD<br>ULS Santa Maria</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/IMG_20220727_205157_380.jpg">
-                            <h5 class="fw-bold text-primary mb-0 card-title">Carolina Coelho</h5>
-                            <p class="text-muted mb-2 card-text">Researcher</p>
-                            <p class="text-muted mb-2 card-text">MSc Student<br>IST, U. Lisboa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/DSC_0060.jpeg">
-                            <h5 class="fw-bold text-primary mb-0 card-title"><strong>Alexandre Corte</strong></h5>
-                            <p class="text-muted mb-2 card-text">Researcher</p>
-                            <p class="text-muted mb-2 card-text">MSc Student<br>IST, U. Lisboa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 shadow-none" style="background: transparent;">
-                        <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle object-fit-cover mb-3" width="130" height="130" src="assets/img/danielnunesprofile.jpg">
-                            <h5 class="fw-bold text-primary mb-0 card-title"><strong>Daniel Nunes</strong></h5>
-                            <p class="text-muted mb-2 card-text">Researcher</p>
-                            <p class="text-muted mb-2 card-text">MSc Student<br>IST, U. Lisboa</p>
-                        </div>
-                    </div>
+                <div class="col-lg-6">
+                    <img src="https://cdn.pixabay.com/photo/2016/01/19/15/05/computer-1149148_1280.jpg" alt="Healthcare Technology" class="image-rounded">
                 </div>
             </div>
         </div>
     </section>
-    <section data-aos="fade-up" id="partners" style="padding: 50px;background: #ffffff;">
+
+    <section class="section-light">
         <div class="container">
-            <h1 class="text-center">Partners</h1>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center"><img src="assets/img/INESC-ID-logo_01.png" width="102" height="52"></div>
-                <div class="col-md-6 text-center d-flex justify-content-center align-items-center"><img src="assets/img/logoretina2.png" width="225" height="36"></div>
+            <div class="text-center">
+                <h3 class="section-title-main center">Project Context</h3>
+            </div>
+            <p class="section-description-center">Understanding the healthcare landscape and challenges in pediatric palliative care</p>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="context-card">
+                        <div class="context-icon">🌍</div>
+                        <h5>Global Healthcare Challenge</h5>
+                        <p>In 2018, WHO estimated 21 million children needed PPC annually, with Europe and North/Central America accounting for 9% of global needs. Only 5.7% of countries have adequate PPC services.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="context-card">
+                        <div class="context-icon">📈</div>
+                        <h5>Portugal's Progress</h5>
+                        <p>Portugal advanced from PPC level 1 (2013) to level 4 (2018), showing significant progress in training and service planning for the estimated 7,828 children needing PPC.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="context-card">
+                        <div class="context-icon">🔬</div>
+                        <h5>Innovation in Assessment</h5>
+                        <p>The PaPaS Scale helps identify children aged 1-19 with complex chronic diseases and palliative needs for early referral. Its Portuguese version has been recently validated.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="context-card">
+                        <div class="context-icon">🏥</div>
+                        <h5>Healthcare System Structure</h5>
+                        <p>Portuguese hospitals are classified from level I to III. Better coordination between hospitals could improve efficiency and care quality across all levels.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="context-card">
+                        <div class="context-icon">💡</div>
+                        <h5>Leading the Change</h5>
+                        <p>Hospital de Santa Maria leads a multicenter study to classify PPC needs across Portugal, improving national organization and developing a care network.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="context-card">
+                        <div class="context-icon">🎯</div>
+                        <h5>Expected Impact</h5>
+                        <p>The platform will reduce fragmentation, enable better home support, and ensure timely referrals to improve quality of life for children and families.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="section-content">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <h3 class="section-title-main">Project Information</h3>
+                    <p class="text-large">
+                        The PiCaSSo project <strong>(BI|2025/742 - PiCaSSo - refa 2024.07300.IACDC)</strong> is strategically planned as an <strong>11-month intensive initiative</strong> with a total budget of <strong>€98,266.79</strong>, <strong>funded by Fundação para a Ciência e Tecnologia</strong>, ensuring comprehensive development and implementation of the digital platform to revolutionize pediatric palliative care across Portugal's healthcare network.
+                    </p>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="project-info-card">
+                                <div class="info-icon">🚀</div>
+                                <div class="info-value">2024.07300.IACDC</div>
+                                <div class="info-label">Project Reference</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info-card">
+                                <div class="info-icon">💰</div>
+                                <div class="info-value">€98,266.79</div>
+                                <div class="info-label">Total Budget</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info-card">
+                                <div class="info-icon">🏛️</div>
+                                <div class="info-value">FCT</div>
+                                <div class="info-label">Funding Agency</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info-card">
+                                <div class="info-icon">📅</div>
+                                <div class="info-value">Mar 2025 / Jan 2026</div>
+                                <div class="info-label">Start / End </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="text-center bg-body" data-bs-theme="dark">
         <div class="container py-4 py-lg-5">
             <ul class="list-inline">
-                <li class="list-inline-item me-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope text-light" style="margin-right: 10px;">
+                <li class="list-inline-item me-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope text-light" style="margin-right: 10px;">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
-                    </svg><a class="link-body-emphasis" href="mailto:picasso@inesc-id.pt">picasso@inesc-id.pt</a></li>
-                <li class="list-inline-item me-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github text-light" style="margin-right: 10px;">
+                    </svg>
+                    <a class="link-body-emphasis" href="mailto:picasso@inesc-id.pt">picasso@inesc-id.pt</a>
+                </li>
+                <li class="list-inline-item me-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github text-light" style="margin-right: 10px;">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
-                    </svg><a class="link-body-emphasis" href="https://github.com/PiCaSSo-PPC">GitHub</a></li>
+                    </svg>
+                    <a class="link-body-emphasis" href="https://github.com/PiCaSSo-PPC">GitHub</a>
+                </li>
             </ul>
             <p class="text-body mb-0">Copyright © 2025 INESC-ID</p>
         </div>
     </footer>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>
