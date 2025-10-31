@@ -3,12 +3,12 @@
    ========================================== */
 
 :root {
-  --primary-color: #151fb2;
-  --secondary-color: #0a0d4d;
+  --primary-color: #171fb2;
+  --secondary-color: #191f8f;
   --accent-color: #2935d9;
   --dark-text: #2c3e50;
-  --light-text: #6c757d;
-  --bg-light: #f8f9fa;
+  --light-text: #545b61;
+  --bg-light: #f1f3f5ef;
   --bg-white: #ffffff;
   --border-radius: 12px;
   --border-radius-sm: 8px;
