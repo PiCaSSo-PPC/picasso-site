@@ -1,5 +1,5 @@
 /* ==========================================
-   PiCaSSo Section-Specific Styles - Updated
+   PiCaSSo Section-Specific Styles
    ========================================== */
 
 /* ==========================================
@@ -224,9 +224,14 @@
 
 .documents-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin-top: 2rem;
+}
+
+/* When there are multiple documents, use a multi-column layout */
+.documents-grid:has(.document-card:nth-child(2)) {
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .documents-placeholder {
@@ -417,7 +422,8 @@
     grid-template-columns: 1fr;
   }
   
-  .documents-grid {
+  .documents-grid,
+  .documents-grid:has(.document-card:nth-child(2)) {
     grid-template-columns: 1fr;
   }
   
