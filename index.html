@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md sticky-top bg-body py-3">
+    <nav class="navbar navbar-expand-md fixed-top bg-body">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html" style="margin: 0; margin-left: -15px; margin-top: -10px;">
-                <img src="assets/logo/logo_cropped.png" alt="PiCaSSo" height="50">
+                <img src="assets/logo/logo_cropped.png" alt="PiCaSSo" height="60">
             </a>
             <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2">
                 <span class="visually-hidden">Toggle navigation</span>
@@ -28,11 +28,6 @@
                     <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
                     <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-                <ul class="navbar-nav d-flex align-items-center ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="https://www.inesc-id.pt" target="_blank">
-                        <img src="assets/img/INESC-ID-logo_01.png" width="76" height="38">
-                    </a></li>
                 </ul>
             </div>
         </div>
@@ -68,43 +63,55 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="context-card">
-                        <div class="context-icon">🌍</div>
-                        <h5>Global Healthcare Challenge</h5>
+                        <div class="context-card-header">
+                            <div class="context-icon">🌍</div>
+                            <h5>Global Healthcare Challenge</h5>
+                        </div>
                         <p>In 2018, WHO estimated 21 million children needed PPC annually, with Europe and North/Central America accounting for 9% of global needs. Only 5.7% of countries have adequate PPC services.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="context-card">
-                        <div class="context-icon">📈</div>
-                        <h5>Portugal's Progress</h5>
+                        <div class="context-card-header">
+                            <div class="context-icon">📈</div>
+                            <h5>Portugal's Progress</h5>
+                        </div>
                         <p>Portugal advanced from PPC level 1 (2013) to level 4 (2018), showing significant progress in training and service planning for the estimated 7,828 children needing PPC.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="context-card">
-                        <div class="context-icon">🔬</div>
-                        <h5>Innovation in Assessment</h5>
+                        <div class="context-card-header">
+                            <div class="context-icon">🔬</div>
+                            <h5>Innovation in Assessment</h5>
+                        </div>
                         <p>The PaPaS Scale helps identify children aged 1-19 with complex chronic diseases and palliative needs for early referral. Its Portuguese version has been recently validated.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="context-card">
-                        <div class="context-icon">🏥</div>
-                        <h5>Healthcare System Structure</h5>
+                        <div class="context-card-header">
+                            <div class="context-icon">🏥</div>
+                            <h5>Healthcare System Structure</h5>
+                        </div>
                         <p>Portuguese hospitals are classified from level I to III. Better coordination between hospitals could improve efficiency and care quality across all levels.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="context-card">
-                        <div class="context-icon">💡</div>
-                        <h5>Leading the Change</h5>
+                        <div class="context-card-header">
+                            <div class="context-icon">💡</div>
+                            <h5>Leading the Change</h5>
+                        </div>
                         <p>Hospital de Santa Maria leads a multicenter study to classify PPC needs across Portugal, improving national organization and developing a care network.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="context-card">
-                        <div class="context-icon">🎯</div>
-                        <h5>Expected Impact</h5>
+                        <div class="context-card-header">
+                            <div class="context-icon">🎯</div>
+                            <h5>Expected Impact</h5>
+                        </div>
                         <p>The platform will reduce fragmentation, enable better home support, and ensure timely referrals to improve quality of life for children and families.</p>
                     </div>
                 </div>
@@ -158,23 +165,29 @@
         </div>
     </section>
 
-    <footer class="text-center bg-body" data-bs-theme="dark">
+    <footer class="text-center footer-primary" data-bs-theme="dark">
         <div class="container py-4 py-lg-5">
-            <ul class="list-inline">
-                <li class="list-inline-item me-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope text-light" style="margin-right: 10px;">
-                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
-                    </svg>
-                    <a class="link-body-emphasis" href="mailto:picasso@inesc-id.pt">picasso@inesc-id.pt</a>
-                </li>
-                <li class="list-inline-item me-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github text-light" style="margin-right: 10px;">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
-                    </svg>
-                    <a class="link-body-emphasis" href="https://github.com/PiCaSSo-PPC">GitHub</a>
-                </li>
-            </ul>
-            <p class="text-body mb-0">Copyright © 2025 INESC-ID</p>
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <p class="footer-contact-text">Contact us at 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope text-light" style="margin: 0 5px;">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
+                        </svg>
+                        <a class="link-body-emphasis" href="mailto:picasso@inesc-id.pt">picasso@inesc-id.pt</a>
+                    </p>
+                </div>
+                <div class="footer-logos">
+                    <a href="https://www.inesc-id.pt" target="_blank" class="footer-logo-link">
+                        <img src="assets/img/INESC-ID-logo_01.png" alt="INESC-ID" width="120">
+                    </a>
+                    <a href="https://www.ulssm.min-saude.pt/" target="_blank" class="footer-logo-link">
+                        <img src="assets/img/logo_santa_maria_branco.png" alt="Unidade Local de Saúde Santa Maria" width="200">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="text-body mb-0">Copyright © 2025 INESC-ID</p>
+            </div>
         </div>
     </footer>
 
