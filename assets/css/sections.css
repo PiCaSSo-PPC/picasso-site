@@ -257,6 +257,22 @@
   text-decoration: underline;
 }
 
+.contact-address {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.contact-address:last-child {
+  margin-bottom: 0;
+}
+
+.contact-location-name {
+  font-weight: 500;
+  color: var(--dark-text);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
 /* Responsive Design */
 @media (max-width: 992px) {
   .team-header h2,

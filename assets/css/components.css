@@ -83,6 +83,23 @@
   font-size: 0.85rem;
   color: var(--light-text);
   line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.team-profile-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: var(--transition);
+  margin-top: auto;
+}
+
+.team-profile-link:hover {
+  color: var(--accent-color);
+  transform: translateX(3px);
 }
 
 /* Partner Cards */
@@ -329,34 +346,35 @@
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--bg-light);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .task-number {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50px;
-  height: 50px;
+  min-width: 45px;
+  height: 45px;
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
   color: white;
   border-radius: 50%;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   flex-shrink: 0;
 }
 
 .task-title {
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 600;
   color: var(--dark-text);
   margin: 0;
 }
 
 .task-section {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  padding-left: calc(45px + 1.5rem);
 }
 
 .task-section:last-child {
@@ -364,10 +382,10 @@
 }
 
 .task-section-title {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--primary-color);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -376,7 +394,7 @@
 .task-section p {
   color: var(--dark-text);
   line-height: 1.7;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 /* Responsive Design */
