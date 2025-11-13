@@ -140,10 +140,6 @@
   margin-top: 2rem;
 }
 
-.documents-grid:has(.document-card:nth-child(2)) {
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-
 .documents-placeholder {
   text-align: center;
   color: var(--light-text);
@@ -300,8 +296,7 @@
     grid-template-columns: 1fr;
   }
   
-  .documents-grid,
-  .documents-grid:has(.document-card:nth-child(2)) {
+  .documents-grid {
     grid-template-columns: 1fr;
   }
   
