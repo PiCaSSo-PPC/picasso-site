@@ -11,12 +11,14 @@
   --light-text: #545b61;
   --bg-light: #f1f3f5ef;
   --bg-white: #ffffff;
+  --border-color: #e9ecef;
   --border-radius: 12px;
   --border-radius-sm: 8px;
   --transition: all 0.3s ease;
   --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
   --shadow-md: 0 5px 20px rgba(0,0,0,0.08);
   --shadow-lg: 0 10px 40px rgba(0,0,0,0.1);
+  --footer-bg: #d3daeb;
 }
 
 /* Reset & Base Styles */
@@ -68,19 +70,16 @@ a {
   margin: 0 auto;
 }
 
-/* Navigation Bar */
+/* Navigation Bar - Removed unnecessary !important */
 .navbar {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   transition: var(--transition);
-  background: white !important;
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+  background: white;
+  padding: 1.5rem 0;
 }
 
 .navbar-brand img {
-  margin: 0;
-  margin-left: -25px;
-  margin-top: -10px;
+  margin: -10px 0 0 -25px;
 }
 
 .nav-link {
@@ -88,9 +87,9 @@ a {
   position: relative;
   transition: var(--transition);
   margin: 0 0.5rem;
-  color: var(--dark-text) !important;
-  font-size: 1.1rem !important;
-  padding: 0.5rem 1rem !important;
+  color: var(--dark-text);
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
 }
 
 .nav-link::after {
@@ -112,7 +111,7 @@ a {
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 .navbar-toggler {
@@ -130,7 +129,7 @@ a {
 
 /* Footer */
 footer.footer-primary {
-  background: #d3daeb !important;
+  background: var(--footer-bg) !important;
   color: var(--dark-text) !important;
 }
 
