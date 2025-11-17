@@ -72,27 +72,43 @@
   border: 3px solid var(--bg-light);
 }
 
+.team-card-name-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: var(--transition);
+  margin-bottom: 0.3rem;
+}
+
 .team-card-name {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--dark-text);
-  margin-bottom: 0.3rem;
+  color: var(--primary-color);
+  margin: 0;
   transition: var(--transition);
 }
 
-.team-card-name-link {
-  text-decoration: none;
+.team-link-icon {
+  margin-left: 3px;
+  width: 17px;
+  height: 17px;
+  opacity: 0.9;
   transition: var(--transition);
 }
 
-.team-card-name-link:hover .team-card-name {
+.team-card-name-link:hover {
+  transform: translateY(-2px); 
+}
+
+.team-card-name-link:hover .team-card-name,
+.team-card-name-link:hover .team-link-icon {
   color: var(--accent-color);
-  transform: translateY(-2px);
+  opacity: 1;
 }
 
 .team-card-role {
   font-size: 0.9rem;
-  color: var(--primary-color);
+  color: var(--dark-text);
   font-weight: 500;
   margin-bottom: 0.3rem;
 }
