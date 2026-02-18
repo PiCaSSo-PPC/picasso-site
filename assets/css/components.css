@@ -403,6 +403,40 @@
   margin: 0;
 }
 
+/* Screenshot Cards */
+.screenshot-wrapper {
+  position: relative;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  border: 2px solid var(--border-color);
+  background: white;
+}
+
+.screenshot-caption {
+  padding: 0.5rem 0 0 0;
+  background: white;
+  border-top:2px solid var(--border-color);
+}
+
+.screenshot-caption-text {
+  font-size: 1rem;
+  color: var(--dark-text);
+  text-align: center;
+}
+
+.functionality-label {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(21, 31, 178, 0.1);
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
 /* Responsive Design */
 @media (max-width: 992px) {
   .partner-card-detailed {

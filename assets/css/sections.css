@@ -59,6 +59,11 @@
   border-radius: 15px;
 }
 
+.image-rectangle {
+  width: 100%;
+  border-radius: 0px;
+}
+
 /* Page Headers */
 .team-header,
 .documents-header {
@@ -112,6 +117,33 @@
 .team-grid .team-card:nth-child(8) { grid-column: 2 / 4; }
 .team-grid .team-card:nth-child(9) { grid-column: 4 / 6; }
 .team-grid .team-card:nth-child(10) { grid-column: 6 / 8; }
+
+
+@media (max-width: 1199px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-grid .team-card:nth-child(n) {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
 
 /* Partners Section */
 .partners-section {
@@ -280,11 +312,69 @@
   margin-bottom: 0.3rem;
 }
 
-/* Responsive Design */
-@media (max-width: 992px) {
-  .team-header h2,
-  .documents-header h2 {
-    font-size: 2.5rem;
+/* Functionality Sections */
+.functionality-section {
+  margin-bottom: 5rem;
+}
+
+.functionality-section:last-child {
+  margin-bottom: 0;
+}
+
+.functionality-section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark-text);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.functionality-section-icon {
+  font-size: 1.8rem;
+}
+
+.functionality-section-description {
+  font-size: 1rem;
+  color: var(--light-text);
+  margin-bottom: 2rem;
+  padding-left: calc(2.5rem + 0.75rem);
+}
+
+.functionality-divider {
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
+.screenshots-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.screenshots-1col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .screenshots-2col {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .functionality-section-title {
+    font-size: 1.4rem;
+  }
+
+  .functionality-section-description {
+    padding-left: 0;
   }
 }
 
@@ -296,16 +386,6 @@
   
   .container-content {
     padding: 30px 15px;
-  }
-  
-  
-  .team-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  .team-grid .team-card {
-    grid-column: 1 / -1;
   }
   
   .partners-grid {
