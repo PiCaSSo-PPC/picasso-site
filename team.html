@@ -118,78 +118,177 @@
                     <p class="team-card-affiliation">MD<br>ULS Santa Maria</p>
                 </div>
                     
-                <div class="team-card">
-                    <img src="assets/img/carolinacoelho.jpg" alt="Carolina Coelho">
-                    <a href="https://www.linkedin.com/in/cfccoelho/" target="_blank" class="team-card-name-link">
-                        <h5 class="team-card-name">Carolina Coelho
-                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
-                                viewBox="0 0 16 16" class="team-link-icon">
-                                <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
-                                <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
-                            </svg>
-                        </h5>
-                    </a>
-                    <p class="team-card-role">Researcher (Contract)</p>
-                    <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                <div class="team-card flippable" id="card-carolina">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/carolinacoelho.jpg" alt="Carolina Coelho">
+                            <a href="https://www.linkedin.com/in/cfccoelho/" target="_blank" class="team-card-name-link">
+                                <h5 class="team-card-name">Carolina Coelho
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
+                                        viewBox="0 0 16 16" class="team-link-icon">
+                                        <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
+                                        <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
+                                    </svg>
+                                </h5>
+                            </a>
+                            <p class="team-card-role">Researcher (Contract)</p>
+                            <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                            <button class="flip-btn" onclick="flipCard('card-carolina')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Contributions
+                            </button>
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Contributions</h5>
+                            <ul>
+                                <li>Synthetic data generation scripts</li>
+                                <li>Attribute-based access control design &amp; implementation</li>
+                                <li>Envelope encryption for database protection</li>
+                            </ul>
+                            <button class="flip-btn-back" onclick="flipCard('card-carolina')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Flip Back
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="team-card">
-                    <img src="assets/img/alexandrecorte.jpeg" alt="Alexandre Corte">
-                    <a href="https://www.linkedin.com/in/alexandre-corte-2206521a3/" target="_blank" class="team-card-name-link">
-                        <h5 class="team-card-name">Alexandre Corte
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
-                                viewBox="0 0 16 16" class="team-link-icon">
-                                <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
-                                <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
-                            </svg>
-                        </h5>
-                    </a>
-                    <p class="team-card-role">Researcher (Contract)</p>
-                    <p class="team-card-affiliation">MSc<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                <div class="team-card flippable" id="card-alexandre">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/alexandrecorte.jpeg" alt="Alexandre Corte">
+                            <a href="https://www.linkedin.com/in/alexandre-corte-2206521a3/" target="_blank" class="team-card-name-link">
+                                <h5 class="team-card-name">Alexandre Corte
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
+                                        viewBox="0 0 16 16" class="team-link-icon">
+                                        <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
+                                        <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
+                                    </svg>
+                                </h5>
+                            </a>
+                            <p class="team-card-role">Researcher (Contract)</p>
+                            <p class="team-card-affiliation">MSc<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                            <button class="flip-btn" onclick="flipCard('card-alexandre')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Contributions
+                            </button>
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Contributions</h5>
+                            <ul>
+                                <li>Database design &amp; implementation</li>
+                                <li>Full-stack development</li>
+                                <li>Data migration &amp; analysis</li>
+                                <li>Project demonstrations &amp; presentations</li>
+                            </ul>
+                            <button class="flip-btn-back" onclick="flipCard('card-alexandre')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Flip Back
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="team-card">
-                    <img src="assets/img/danielnunesprofile.jpg" alt="Daniel Nunes">
-                    <a href="https://www.linkedin.com/in/daniel-nunes-b469bb253/" target="_blank" class="team-card-name-link">
-                        <h5 class="team-card-name">Daniel Nunes
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
-                                viewBox="0 0 16 16" class="team-link-icon">
-                                <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
-                                <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
-                            </svg>
-                        </h5>
-                    </a>
-                    <p class="team-card-role">Research Fellow</p>
-                    <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                <div class="team-card flippable" id="card-daniel">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/danielnunesprofile.jpg" alt="Daniel Nunes">
+                            <a href="https://www.linkedin.com/in/daniel-nunes-b469bb253/" target="_blank" class="team-card-name-link">
+                                <h5 class="team-card-name">Daniel Nunes
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
+                                        viewBox="0 0 16 16" class="team-link-icon">
+                                        <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
+                                        <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
+                                    </svg>
+                                </h5>
+                            </a>
+                            <p class="team-card-role">Research Fellow</p>
+                            <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                            <button class="flip-btn" onclick="flipCard('card-daniel')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Contributions
+                            </button>
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Contributions</h5>
+                            <ul>
+                                <li>Full-stack development</li>
+                                <li>Usable interface design</li>
+                                <li>Secure system architecture</li>
+                            </ul>
+                            <button class="flip-btn-back" onclick="flipCard('card-daniel')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Flip Back
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="team-card">
-                    <img src="assets/img/catarinafreire.jpg" alt="Catarina Freire">
-                    <a href="https://www.linkedin.com/in/catarina-xie-freire/" target="_blank" class="team-card-name-link">
-                        <h5 class="team-card-name">Catarina Freire
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
-                                viewBox="0 0 16 16" class="team-link-icon">
-                                <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
-                                <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
-                            </svg>
-                        </h5>
-                    </a>
-                    <p class="team-card-role">Research Fellow</p>
-                    <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                <div class="team-card flippable" id="card-catarina">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/catarinafreire.jpg" alt="Catarina Freire">
+                            <a href="https://www.linkedin.com/in/catarina-xie-freire/" target="_blank" class="team-card-name-link">
+                                <h5 class="team-card-name">Catarina Freire
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
+                                        viewBox="0 0 16 16" class="team-link-icon">
+                                        <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
+                                        <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
+                                    </svg>
+                                </h5>
+                            </a>
+                            <p class="team-card-role">Research Fellow</p>
+                            <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                            <button class="flip-btn" onclick="flipCard('card-catarina')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Contributions
+                            </button>
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Contributions</h5>
+                            <ul>
+                                <li>Graphical user interface design and implementation</li>
+                                <li>Project website design and implementation</li>
+                            </ul>
+                            <button class="flip-btn-back" onclick="flipCard('card-catarina')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Flip Back
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="team-card">
-                    <img src="assets/img/tiagonobrega.jpg" alt="Tiago Nóbrega">
-                    <a href="https://www.linkedin.com/in/tiago-nobrega/" target="_blank" class="team-card-name-link">
-                        <h5 class="team-card-name">Tiago Nóbrega
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
-                                viewBox="0 0 16 16" class="team-link-icon">
-                                <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
-                                <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
-                            </svg>
-                        </h5>
-                    </a>
-                    <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                <div class="team-card flippable" id="card-tiago">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/tiagonobrega.jpg" alt="Tiago Nóbrega">
+                            <a href="https://www.linkedin.com/in/tiago-nobrega/" target="_blank" class="team-card-name-link">
+                                <h5 class="team-card-name">Tiago Nóbrega
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
+                                        viewBox="0 0 16 16" class="team-link-icon">
+                                        <path d="M6.354 5.5H4a2.5 2.5 0 0 0 0 5h2.354v1H4a3.5 3.5 0 0 1 0-7h2.354v1zm3.292 0H12a2.5 2.5 0 0 1 0 5H9.646v1H12a3.5 3.5 0 0 0 0-7H9.646v1z"/>
+                                        <path d="M5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5A.5.5 0 0 1 5 8z"/>
+                                    </svg>
+                                </h5>
+                            </a>
+                            <p class="team-card-affiliation">MSc Student<br>Instituto Superior Técnico -<br>U. Lisboa<br>INESC-ID</p>
+                            <button class="flip-btn" onclick="flipCard('card-tiago')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Contributions
+                            </button>
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Contributions</h5>
+                            <ul>
+                                <li>Information visualisation &amp; dashboards</li>
+                                <li>Predictive analytics</li>
+                            </ul>
+                            <button class="flip-btn-back" onclick="flipCard('card-tiago')">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/><path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/></svg>
+                                Flip Back
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -252,7 +351,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope text-light" style="margin: 0 5px;">
                             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
                         </svg>
-                        <a class="link-body-emphasis" href="mailto:picasso@inesc-id.pt">picasso@inesc-id.pt</a>
+                        <a class="link-body-emphasis" href="/cdn-cgi/l/email-protection#90e0f9f3f1e3e3ffd0f9fef5e3f3bdf9f4bee0e4"><span class="__cf_email__" data-cfemail="ccbca5afadbfbfa38ca5a2a9bfafe1a5a8e2bcb8">[email&#160;protected]</span></a>
                     </p>
                 </div>
                 <div class="footer-logos">
@@ -268,12 +367,14 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                <p class="text-body mb-0">Copyright © 2025 INESC-ID</p>
-            </div>
+                <p class="text-body mb-0">Copyright © 2025 INESC-ID</p>            </div>
         </div>
     </footer>
-    
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
 
+    <script>
+        function flipCard(id) {
+            document.getElementById(id).classList.toggle('flipped');
+        }
+    </script>
+</body>
 </html>
