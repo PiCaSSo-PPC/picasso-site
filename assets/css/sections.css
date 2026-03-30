@@ -363,6 +363,16 @@
   margin: 0 auto;
 }
 
+.demo-video-container {
+  text-align: center;
+}
+
+.demo-video-player {
+  width: 900px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
 @media (max-width: 768px) {
   .screenshots-2col {
     grid-template-columns: 1fr;
